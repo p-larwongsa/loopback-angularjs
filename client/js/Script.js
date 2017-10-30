@@ -1,7 +1,9 @@
-var app = angular.module('App', ['lbServices']);
-app.controller('Ctrl', function($scope,$filter,test) {
-    $scope.datas = test.find();
-    $scope.list;
-    console.log(datas);
+var app = angular.module('myApp', ['lbServices']);
+app.controller('myCtrl', function($scope,Todo) {
+	$scope.objs = Todo.find();
+	$scope.list;
+    console.log($scope.objs);
+    $scope.firstName= "John";
+    $scope.lastName= "Doe";
+
 });
-  

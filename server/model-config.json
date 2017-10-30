@@ -38,5 +38,9 @@
   "test": {
     "dataSource": "mysqlDB",
     "public": true
+  },
+  "Todo": {
+    "dataSource": "mysqlDB",
+    "public": true
   }
 }
